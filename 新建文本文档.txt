@@ -1,0 +1,212 @@
+景凯强@DESKTOP-KOS15MR MINGW64 ~
+$ cd /c/Users/景凯强/Desktop/com
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com
+$ git init
+Initialized empty Git repository in C:/Users/景凯强/Desktop/com/.git/
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git add .
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git commit -m "第一次提交"
+[master (root-commit) 276fda2] 第一次提交
+ 4 files changed, 175 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 new_file.html
+ create mode 100644 new_file.js
+ create mode 100644 new_file.json
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ echo "练习" >>REANME.md
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git commit -m "第二次提交"
+On branch master
+Untracked files:
+        REANME.md
+
+nothing added to commit but untracked files present
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ echo "练习" >>README.md
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git commit -m "第二v次"
+[master dc6bd82] 第二v次
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git remote add origin "git@github.com:jingkaiqiang/jing.git"
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetc
+
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ echo
+
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ git clone git@github.com:iamxiangyang/1710A3.git
+Cloning into '1710A3'...
+remote: Counting objects: 9, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 1), reused 9 (delta 1), pack-reused 0
+Receiving objects: 100% (9/9), 81.60 KiB | 30.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/com (master)
+$ cd /c/Users/景凯强/Desktop/var
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var
+$ git init
+Initialized empty Git repository in C:/Users/景凯强/Desktop/var/.git/
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ git add .
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ git commit -m "第一次提交"
+[master (root-commit) a086092] 第一次提交
+ 3 files changed, 166 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 new_file.html
+ create mode 100644 new_file.js
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ echo "联系" >>README.md
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ git commit -m "第二次提交"
+[master 2ffc72c] 第二次提交
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ git remote add origin "git@github.com:jingkaiqiang/jing.git"
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ git push -u origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.73 KiB | 590.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:jingkaiqiang/jing.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/var (master)
+$ cd /c/Users/景凯强/Desktop/aaaa
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa
+$ git clone git@github.com:iamxiangyang/1710A3.git
+Cloning into '1710A3'...
+remote: Counting objects: 9, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 1), reused 9 (delta 1), pack-reused 0
+Receiving objects: 100% (9/9), 81.60 KiB | 74.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa
+$ cd /c/Users/景凯强/Desktop/aaaa/1710A3
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git add demo1.html
+fatal: pathspec 'demo1.html' did not match any files
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git add .
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git commit -m "新一个"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:iamxiangyang/1710A3
+ * branch            master     -> FETCH_HEAD
+   77f1234..e26627f  master     -> origin/master
+Updating 77f1234..e26627f
+Fast-forward
+ demo1.html | 130 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 130 insertions(+)
+ create mode 100644 demo1.html
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git push -u origin master
+ERROR: Permission to iamxiangyang/1710A3.git denied to jingkaiqiang.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ cd 1710A3/
+bash: cd: 1710A3/: No such file or directory
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git add demo1.html
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git commit -m "新一个"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git pull origin master
+From github.com:iamxiangyang/1710A3
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+景凯强@DESKTOP-KOS15MR MINGW64 ~/Desktop/aaaa/1710A3 (master)
+$ git push -u origin master
